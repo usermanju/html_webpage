@@ -228,3 +228,19 @@ width height
 Git: software, open source, no any user management, command based software.
 
 Github: web application based on repository, open/paid, you can manage user/ user namagement, collection of repository.
+
+
+1) git init
+2) git add.
+3) git commit -m "This is codecamp project"
+4) git branch -M main
+5) git status.
+6) git remote add origin link
+7) git push -u origin main
+
+
+
+
+M=modified
+U=untracked
+A=added
