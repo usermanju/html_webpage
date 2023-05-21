@@ -1,0 +1,230 @@
+Notes:
+
+Table: A table is a combination of rows and columns. It allows to arrange of data in rows and columns.
+
+Lists: A list is a group of related items. 
+
+Form: takes user input.
+
+Inline element: text arranged in a single paragraph.
+
+
+Block element: arranged in different lines or blocks.
+
+
+
+
+
+CSS Selector:
+
+1) element selector: <p>
+2) id selector: (#)
+3) class selector:(.)
+4) Universal selector:(*)
+5) Grouping selector:(simple selector)(,)
+6) Pseudo-element selector(::)
+7) pseudo-class selector(:)
+8) Attribute selector: input[type="text"]
+{
+color: red;
+}
+9) Descendent selector: space
+10) General sibling selector: (~ Tilde, navigator)
+
+adjacent: close vayee pachi aunee tag lai color garxaa.
+general sibling: new pachi sabai
+
+
+
+Css Types:
+a) Inline css: style attribute is used.  
+b) Internal css: head tag ma garinxaa.
+c) External css:
+
+Types of color:
+RGB:0-255
+RGBA
+hsl:0-360
+hsla
+hex: #
+
+
+cover: cover all background
+contain:default size ko hunxaa.
+
+shadow: left top-> bottom opacity color
+text-shadow: 1px 1px 0px red;
+
+
+
+
+2D,3D, ANimation:
+
+2D-> Transform: rotate(40 deg);
+              : translate(20px 30px);
+              : translateX(40px);
+              : translateY(40px);
+              : scale(2,1);-> Zoomin, zoomout.
+              : scalex(2);
+              : scaley(2) 
+              : skew(45deg)
+
+1 rem=16px;
+1 em=14px;
+
+top  right bottom  left  
+
+padding:1em            2em
+         top bottom, left right
+
+
+xs- 480px
+sm- 600px
+med-768px
+lg- 992px
+xl- 1200px
+xxl-1400px
+
+
+display:flex;
+flex:1;
+flex-direction: column;
+
+
+flex-wrap: no-wrap; content lai next line ma lauxaa.  parent div ma lekhni.
+flex-shrink:
+flex-basis:
+flex-Grow:
+flex:flex-grow flex-shrink flex-basis. 1  1   200px;  child div ma lekhni.
+justify-content: space-between; 
+order:
+align-item:
+gap:
+
+              
+On mouseover
+
+
+Bootstrap 5.2.0:
+Bootstrap default has 8 colors.
+1) color syntax:
+ text-colorname:
+text-primary:blue.
+text-success:green
+text-secondary:grey
+text-warning:yellow
+text-danger:red.
+text-light:white.
+text-dark:black.
+text-info:aqua.
+
+
+2) Background color
+syntax:
+bg-colorname:
+
+
+B5
+float-start:left
+float-end:right
+
+
+
+
+text-align
+
+
+padding:
+p-5: padding:48px;
+p-4
+
+top and bottom: py-5;
+left-right:px-5;
+
+padding-left: ps-5
+padding-right:pe-5
+
+margin-left: ms-5
+margin-right:me-5
+
+mx-auto
+
+
+Border: border border-primary border-2
+
+
+Shadow:
+shadow-sm-> small
+shadow
+shadow-lg
+
+button: b5-btn
+navbar:b5-navbar
+accordion:b5-accordion.
+b5-table
+b5-form
+b5-caresoul.
+
+xm=480
+sm=600
+md=768
+lg=992
+xl=1200
+xxl=1400
+
+Grid Layout: Row and column
+12 parts.
+
+12/4=3
+
+container.
+container-fluid.
+
+Syntax:
+<section>
+<div class="container">
+
+<div class="row">
+
+
+
+</div>
+</div>
+</section>
+
+Gutters: gap in all direction
+similar to padding
+
+g-5
+gx-5
+gy-5
+
+
+utility:
+
+didplay:flex;
+
+row=grid
+column=g.
+
+
+Image 
+Image fluid: img-fluid. d-block, margin.
+Thumbnail:
+
+
+
+Alert:
+
+<h1 class="alert alert-success">
+
+
+Navbar Logo:
+70     60 /50
+width height
+
+
+
+Git: software, open source, no any user management, command based software.
+
+Github: web application based on repository, open/paid, you can manage user/ user namagement, collection of repository.

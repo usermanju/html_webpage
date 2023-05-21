@@ -1,0 +1,14 @@
+*
+{
+    margin: 0%;
+    box-sizing: border-box;
+}
+p{
+    font-size: 2em;
+    text-align: center;
+}
+video{
+    width: 700px;
+    height: auto;
+    padding: 1em;
+}

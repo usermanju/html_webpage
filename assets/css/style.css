@@ -1,0 +1,22 @@
+*
+{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+img{
+    width:500px;
+    height: auto;
+}
+
+ .new p{
+    color: red;
+} 
+/* Adjacent sibling selector */
+.new+h1{
+    color: darkblue;
+}
+/* Genaral sibling selector */
+.new~p{
+    color: yellow;
+}

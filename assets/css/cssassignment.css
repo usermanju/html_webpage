@@ -1,0 +1,47 @@
+*
+{
+    margin: 0%;
+    box-sizing: border-box;
+}
+#id p
+{
+    color: red;
+
+}
+.class,h3,bold,p
+{
+    color:blue;
+}
+.group img {
+    color:yellow;
+width:500px;
+height: auto;
+}
+.descendant p{
+    color:brown;
+}
+.head>p{
+    color:darkorange;
+}
+.adjacent+h1{
+color: darkgoldenrod;
+}
+.general~h1{
+color: darkmagenta;
+}
+.element::first-line
+{
+color:red;
+}
+.element::first-letter
+{
+color:lightgreen;
+font-size: 5em;
+}
+
+.pseudoclass a:link{
+    color:green;
+}
+.attribute p[a]{
+color:pink;
+}

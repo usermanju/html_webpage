@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.table,th,td 
+{
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+.table .head{
+    background-color: aquamarine;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
